@@ -1,0 +1,13 @@
+  
+#Precisa fazer somente uma vez em cada maquina pra sincronizar o github
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+#adiciona em tracked
+git add main.py
+
+#versiona localmente
+git commit -m "Padroes de codigo limpo"
+
+#versiona no github
+git push origin main
